@@ -3,10 +3,16 @@
 
 
 .contact {
-    @extend header;
     background: $primColor;
-    // @include flexCenter(row, $primColor);
+    @include flexCenter(row, $primColor);
+    justify-content: space-evenly;
+    
     // color: $textColor;
+}
 
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: beige;
 
 }

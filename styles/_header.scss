@@ -11,9 +11,9 @@
 }
 
 header {
-    @include flexCenter(column, $secColor);
+    @include flexCenter(row, $secColor);
 
-    height: 100vh;
+    height: 10vh;
 
     color: $textColor;
 

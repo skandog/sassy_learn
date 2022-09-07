@@ -1,20 +1,33 @@
-header, .contact {
+header {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   background: rgb(12, 109, 12);
-  height: 100vh;
+  height: 10vh;
   color: rgb(120, 185, 120);
 }
-header button, .contact button {
+header button {
   background: rgb(0, 204, 255);
 }
-header button::after, .contact button::after {
+header button::after {
   content: "Helllooooooo";
 }
 
 .contact {
   background: rgb(12, 58, 128);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(12, 58, 128);
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: beige;
 }/*# sourceMappingURL=style.css.map */
