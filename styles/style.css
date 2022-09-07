@@ -1,0 +1,20 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(12, 109, 12);
+  height: 100vh;
+  color: rgb(120, 185, 120);
+}
+header button, .contact button {
+  background: rgb(0, 204, 255);
+}
+header button::after, .contact button::after {
+  content: "Helllooooooo";
+}
+
+.contact {
+  background: rgb(12, 58, 128);
+}/*# sourceMappingURL=style.css.map */
