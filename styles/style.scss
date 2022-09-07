@@ -4,10 +4,17 @@
 
 .contact {
     background: $primColor;
-    @include flexCenter(row, $primColor);
+    @include flexCenter(column, $primColor);
     justify-content: space-evenly;
-    
+
     // color: $textColor;
+    max-width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .box {
@@ -15,4 +22,11 @@
     width: 50px;
     background-color: beige;
 
+}
+
+.inner-container {
+    border-color: black;
+    border-style: solid;
+    @include flexCenter(column, $primColor);
+    justify-content: space-evenly;
 }

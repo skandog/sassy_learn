@@ -21,13 +21,33 @@ header button::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   background: rgb(12, 58, 128);
   justify-content: space-evenly;
+  max-width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .contact {
+    flex-direction: column;
+  }
 }
 
 .box {
   height: 50px;
   width: 50px;
   background-color: beige;
+}
+
+.inner-container {
+  border-color: black;
+  border-style: solid;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(12, 58, 128);
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
